@@ -1,6 +1,43 @@
 /* btn-color:#F46632 */
 /* grey-color:#8D8D8D */
-/* color:#F8F8F8 */
-*{
-  ma
+/* section-color:#F8F8F8 */
+html {
+  font-size: 62.5%;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.block {
+  width: 80%;
+  margin: 0 auto;
+}
+.home {
+  width: 100%;
+  background-color: #000;
+}
+header {
+  display: flex;
+  color: #fff;
+  gap: 5rem;
+  align-items: center;
+  padding: 1rem 0;
+}
+nav {
+  display: flex;
+  gap: 3rem;
+}
+a {
+  text-decoration: none;
+}
+header a {
+  color: #fff;
+  font-size: 1.8rem;
+}
+.register {
+  padding: 1rem 4rem;
+  border-radius: 5rem;
+  background-color: #292929;
+  border: none;
 }
