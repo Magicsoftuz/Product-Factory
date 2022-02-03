@@ -52,7 +52,6 @@ header a {
   border: none;
 }
 .hero {
-  margin-bottom: -10rem;
   background-color: #fff;
   display: flex;
   border-radius: 3rem;
@@ -96,4 +95,85 @@ h1 {
   font-size: 1.8rem;
   color: #fff;
   font-style: bold;
+}
+.about {
+  box-shadow: 0 0 3rem rgba(0, 0, 0, 0.5);
+  border-radius: 3rem;
+  background-color: #fff;
+  margin-top: 30rem;
+  padding: 0 10rem 5rem 10rem;
+}
+.about-top {
+  transform: translateY(-40%);
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+.play {
+  width: 50%;
+}
+.about-name {
+  background-image: url(/img/About.png);
+  background-size: cover;
+  padding: 4rem 6rem;
+  font-size: 3.2rem;
+  text-align: center;
+  font-style: bold;
+}
+.media {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+.media img {
+  width: 50%;
+}
+.about-text {
+  font-size: 1.4rem;
+  line-height: 4rem;
+}
+.course-experience {
+  display: flex;
+  flex-direction: column;
+  gap: 5rem;
+  padding: 5rem 2rem;
+  box-shadow: 0 0 3rem rgba(0, 0, 0, 0.5);
+  margin-top: 10rem;
+  border-radius: 3rem;
+  align-items: center;
+}
+.experiens {
+  background-image: url(img/Experience.png);
+  background-size: cover;
+  padding: 4rem 8rem;
+  font-size: 3.2rem;
+}
+.table {
+  border: 0.1rem solid #000;
+  display: flex;
+  border-radius: 1.2rem;
+}
+.table p {
+  padding: 1rem 6rem;
+  font-size: 1.6rem;
+}
+.table p:last-child {
+  background: #000;
+  color: #fff;
+  border-radius: 1.2rem;
+}
+.table p:nth-child(2) {
+  border-left: 0.1rem solid #000;
+}
+.experiens-text {
+  display: flex;
+  align-items: center;
+  font-size: 1.6rem;
+  gap: 5rem;
+}
+.experiens-text img {
+  width: 25%;
+}
+.experiens-text p {
+  line-height: 4rem;
 }
